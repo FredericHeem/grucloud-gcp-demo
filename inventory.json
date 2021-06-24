@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/d45b11cd-f845-4f0e-9a6f-4bc4e6cc7738.dot",
+        "dotFile": "output/768abbf8-4f32-42f5-a154-25d8861eac70.dot",
         "title": "",
         "provider": [
             "google"
@@ -17,8 +17,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-d45b11cd-f845-4f0e-9a6f-4bc4e6cc7738.json",
-        "config": "input/config-d45b11cd-f845-4f0e-9a6f-4bc4e6cc7738.js"
+        "json": "output/gc-list-768abbf8-4f32-42f5-a154-25d8861eac70.json",
+        "config": "input/config-768abbf8-4f32-42f5-a154-25d8861eac70.js"
     },
     "result": {
         "error": false,
@@ -28,10 +28,6 @@
                 "kind": "livesPerType",
                 "error": false,
                 "results": [
-                    {
-                        "type": "IamPolicy",
-                        "resources": []
-                    },
                     {
                         "type": "Disk",
                         "resources": [
@@ -157,6 +153,14 @@
                         ]
                     },
                     {
+                        "type": "IamPolicy",
+                        "resources": []
+                    },
+                    {
+                        "type": "IamBinding",
+                        "resources": []
+                    },
+                    {
                         "type": "SubNetwork",
                         "resources": [
                             {
@@ -197,10 +201,6 @@
                                 "show": true
                             }
                         ]
-                    },
-                    {
-                        "type": "IamBinding",
-                        "resources": []
                     },
                     {
                         "type": "ServiceAccount",
