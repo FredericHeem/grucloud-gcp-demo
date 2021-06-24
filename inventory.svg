@@ -19,26 +19,26 @@
 <polygon fill="#eeeeee" stroke="#eeeeee" points="16,-54 16,-309 441,-309 441,-54 16,-54"/>
 <text text-anchor="start" x="224.5" y="-58.2" font-family="Helvetica,sans-Serif" font-size="1.00" fill="#383838"> </text>
 </g>
-<!-- Disk::::2758807692422780115 -->
+<!-- Network::::7258773012956681426 -->
 <g id="node1" class="node">
+<title>Network::::7258773012956681426</title>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="433,-215 356,-215 356,-157 433,-157 433,-215"/>
+<text text-anchor="start" x="368.5" y="-195.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Network</text>
+<text text-anchor="start" x="368.5" y="-170.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">rhmig</text>
+</g>
+<!-- Disk::::2758807692422780115 -->
+<g id="node2" class="node">
 <title>Disk::::2758807692422780115</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="290,-129 190,-129 190,-71 290,-71 290,-129"/>
-<text text-anchor="start" x="202" y="-109.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Disk</text>
-<text text-anchor="start" x="202" y="-84.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">extra&#45;disk</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="290,-149 190,-149 190,-91 290,-91 290,-149"/>
+<text text-anchor="start" x="202" y="-129.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Disk</text>
+<text text-anchor="start" x="202" y="-104.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">extra&#45;disk</text>
 </g>
 <!-- Disk::::3042111320179184772 -->
-<g id="node2" class="node">
-<title>Disk::::3042111320179184772</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="282.5,-205 197.5,-205 197.5,-147 282.5,-147 282.5,-205"/>
-<text text-anchor="start" x="210" y="-185.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Disk</text>
-<text text-anchor="start" x="210" y="-160.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">s1&#45;2&#45;uk1</text>
-</g>
-<!-- Network::::7258773012956681426 -->
 <g id="node3" class="node">
-<title>Network::::7258773012956681426</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="433,-277 356,-277 356,-219 433,-219 433,-277"/>
-<text text-anchor="start" x="368.5" y="-257.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Network</text>
-<text text-anchor="start" x="368.5" y="-232.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">rhmig</text>
+<title>Disk::::3042111320179184772</title>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="282.5,-225 197.5,-225 197.5,-167 282.5,-167 282.5,-225"/>
+<text text-anchor="start" x="210" y="-205.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Disk</text>
+<text text-anchor="start" x="210" y="-180.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">s1&#45;2&#45;uk1</text>
 </g>
 <!-- SubNetwork::::1527258530765706428 -->
 <g id="node4" class="node">
@@ -50,39 +50,39 @@
 <!-- SubNetwork::::1527258530765706428&#45;&gt;Network::::7258773012956681426 -->
 <g id="edge1" class="edge">
 <title>SubNetwork::::1527258530765706428&#45;&gt;Network::::7258773012956681426</title>
-<path fill="none" stroke="#707070" d="M320.38,-259.51C329.03,-258.15 337.62,-256.79 345.72,-255.52"/>
-<polygon fill="#707070" stroke="#707070" points="346.34,-258.96 355.68,-253.95 345.25,-252.05 346.34,-258.96"/>
+<path fill="none" stroke="#707070" d="M303.49,-242.88C309.12,-239.97 314.7,-236.99 320,-234 329.05,-228.89 338.5,-223.1 347.49,-217.35"/>
+<polygon fill="#707070" stroke="#707070" points="349.45,-220.25 355.94,-211.88 345.64,-214.38 349.45,-220.25"/>
 </g>
 <!-- VmInstance::::8284183874917471364 -->
 <g id="node5" class="node">
 <title>VmInstance::::8284183874917471364</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="124,-229 24,-229 24,-171 124,-171 124,-229"/>
-<text text-anchor="start" x="36" y="-209.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">VmInstance</text>
-<text text-anchor="start" x="36" y="-184.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">s1&#45;2&#45;uk1</text>
-</g>
-<!-- VmInstance::::8284183874917471364&#45;&gt;Disk::::2758807692422780115 -->
-<g id="edge5" class="edge">
-<title>VmInstance::::8284183874917471364&#45;&gt;Disk::::2758807692422780115</title>
-<path fill="none" stroke="#707070" d="M112.07,-170.7C126.62,-159.82 143.7,-147.75 160,-138 166.61,-134.04 173.7,-130.17 180.81,-126.49"/>
-<polygon fill="#707070" stroke="#707070" points="182.45,-129.58 189.8,-121.95 179.3,-123.33 182.45,-129.58"/>
-</g>
-<!-- VmInstance::::8284183874917471364&#45;&gt;Disk::::3042111320179184772 -->
-<g id="edge4" class="edge">
-<title>VmInstance::::8284183874917471364&#45;&gt;Disk::::3042111320179184772</title>
-<path fill="none" stroke="#707070" d="M124.21,-192.8C144.14,-189.88 167.17,-186.51 187.35,-183.56"/>
-<polygon fill="#707070" stroke="#707070" points="187.92,-187.01 197.31,-182.1 186.9,-180.09 187.92,-187.01"/>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="124,-187 24,-187 24,-129 124,-129 124,-187"/>
+<text text-anchor="start" x="36" y="-167.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">VmInstance</text>
+<text text-anchor="start" x="36" y="-142.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">s1&#45;2&#45;uk1</text>
 </g>
 <!-- VmInstance::::8284183874917471364&#45;&gt;Network::::7258773012956681426 -->
 <g id="edge2" class="edge">
 <title>VmInstance::::8284183874917471364&#45;&gt;Network::::7258773012956681426</title>
-<path fill="none" stroke="#707070" d="M124.39,-208.47C136.05,-210.38 148.45,-212.33 160,-214 230.92,-224.27 249.21,-222.85 320,-234 328.39,-235.32 337.29,-236.88 345.9,-238.47"/>
-<polygon fill="#707070" stroke="#707070" points="345.34,-241.93 355.81,-240.34 346.63,-235.05 345.34,-241.93"/>
+<path fill="none" stroke="#707070" d="M97.98,-128.73C113.42,-111.54 135.4,-91.39 160,-82 226.43,-56.63 256.85,-49.3 320,-82 346.52,-95.73 365.52,-123.92 377.54,-147.5"/>
+<polygon fill="#707070" stroke="#707070" points="374.45,-149.13 381.97,-156.59 380.74,-146.07 374.45,-149.13"/>
+</g>
+<!-- VmInstance::::8284183874917471364&#45;&gt;Disk::::2758807692422780115 -->
+<g id="edge5" class="edge">
+<title>VmInstance::::8284183874917471364&#45;&gt;Disk::::2758807692422780115</title>
+<path fill="none" stroke="#707070" d="M124.21,-146.6C141.72,-142.54 161.62,-137.93 179.88,-133.7"/>
+<polygon fill="#707070" stroke="#707070" points="180.88,-137.06 189.83,-131.39 179.3,-130.24 180.88,-137.06"/>
+</g>
+<!-- VmInstance::::8284183874917471364&#45;&gt;Disk::::3042111320179184772 -->
+<g id="edge4" class="edge">
+<title>VmInstance::::8284183874917471364&#45;&gt;Disk::::3042111320179184772</title>
+<path fill="none" stroke="#707070" d="M124.21,-169.4C144.14,-174.02 167.17,-179.36 187.35,-184.03"/>
+<polygon fill="#707070" stroke="#707070" points="186.77,-187.49 197.31,-186.34 188.35,-180.67 186.77,-187.49"/>
 </g>
 <!-- VmInstance::::8284183874917471364&#45;&gt;SubNetwork::::1527258530765706428 -->
 <g id="edge3" class="edge">
 <title>VmInstance::::8284183874917471364&#45;&gt;SubNetwork::::1527258530765706428</title>
-<path fill="none" stroke="#707070" d="M124.21,-221.6C136.62,-227.05 150.24,-233.03 163.63,-238.91"/>
-<polygon fill="#707070" stroke="#707070" points="162.27,-242.14 172.84,-242.95 165.09,-235.73 162.27,-242.14"/>
+<path fill="none" stroke="#707070" d="M103.59,-187.27C119.34,-202.4 139.75,-220.47 160,-234 161.85,-235.24 163.75,-236.46 165.68,-237.66"/>
+<polygon fill="#707070" stroke="#707070" points="163.95,-240.7 174.34,-242.79 167.52,-234.68 163.95,-240.7"/>
 </g>
 </g>
 </svg>

@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/768abbf8-4f32-42f5-a154-25d8861eac70.dot",
+        "dotFile": "output/7b9f9d16-2ef7-4e5a-8b7a-e0de6f0f23e1.dot",
         "title": "",
         "provider": [
             "google"
@@ -17,8 +17,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-768abbf8-4f32-42f5-a154-25d8861eac70.json",
-        "config": "input/config-768abbf8-4f32-42f5-a154-25d8861eac70.js"
+        "json": "output/gc-list-7b9f9d16-2ef7-4e5a-8b7a-e0de6f0f23e1.json",
+        "config": "input/config-7b9f9d16-2ef7-4e5a-8b7a-e0de6f0f23e1.js"
     },
     "result": {
         "error": false,
@@ -28,6 +28,40 @@
                 "kind": "livesPerType",
                 "error": false,
                 "results": [
+                    {
+                        "type": "Network",
+                        "resources": [
+                            {
+                                "uri": "google::Network::7258773012956681426",
+                                "name": "rhmig",
+                                "displayName": "rhmig",
+                                "id": "7258773012956681426",
+                                "providerName": "google",
+                                "type": "Network",
+                                "live": {
+                                    "id": "7258773012956681426",
+                                    "creationTimestamp": "2021-06-23T23:46:21.146-07:00",
+                                    "name": "rhmig",
+                                    "description": "Managed By GruCloud",
+                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-test/global/networks/rhmig",
+                                    "autoCreateSubnetworks": false,
+                                    "subnetworks": [
+                                        "https://www.googleapis.com/compute/v1/projects/grucloud-test/regions/europe-west4/subnetworks/subnet-10-0-0-0-16"
+                                    ],
+                                    "routingConfig": {
+                                        "routingMode": "REGIONAL"
+                                    },
+                                    "kind": "compute#network"
+                                },
+                                "cannotBeDeleted": false,
+                                "isDefault": false,
+                                "namespace": "",
+                                "dependencies": [],
+                                "managedByUs": true,
+                                "show": true
+                            }
+                        ]
+                    },
                     {
                         "type": "Disk",
                         "resources": [
@@ -119,48 +153,6 @@
                         ]
                     },
                     {
-                        "type": "Network",
-                        "resources": [
-                            {
-                                "uri": "google::Network::7258773012956681426",
-                                "name": "rhmig",
-                                "displayName": "rhmig",
-                                "id": "7258773012956681426",
-                                "providerName": "google",
-                                "type": "Network",
-                                "live": {
-                                    "id": "7258773012956681426",
-                                    "creationTimestamp": "2021-06-23T23:46:21.146-07:00",
-                                    "name": "rhmig",
-                                    "description": "Managed By GruCloud",
-                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-test/global/networks/rhmig",
-                                    "autoCreateSubnetworks": false,
-                                    "subnetworks": [
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-test/regions/europe-west4/subnetworks/subnet-10-0-0-0-16"
-                                    ],
-                                    "routingConfig": {
-                                        "routingMode": "REGIONAL"
-                                    },
-                                    "kind": "compute#network"
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": true,
-                                "show": true
-                            }
-                        ]
-                    },
-                    {
-                        "type": "IamPolicy",
-                        "resources": []
-                    },
-                    {
-                        "type": "IamBinding",
-                        "resources": []
-                    },
-                    {
                         "type": "SubNetwork",
                         "resources": [
                             {
@@ -201,6 +193,14 @@
                                 "show": true
                             }
                         ]
+                    },
+                    {
+                        "type": "IamBinding",
+                        "resources": []
+                    },
+                    {
+                        "type": "IamPolicy",
+                        "resources": []
                     },
                     {
                         "type": "ServiceAccount",
