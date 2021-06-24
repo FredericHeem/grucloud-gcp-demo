@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/ea1a8c69-6402-46cf-af93-782c72cae383.dot",
+        "dotFile": "output/4d5995a7-a81d-445e-bc7b-4a21cc142989.dot",
         "title": "",
         "provider": [
             "google"
@@ -17,21 +17,17 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-ea1a8c69-6402-46cf-af93-782c72cae383.json",
-        "config": "input/config-ea1a8c69-6402-46cf-af93-782c72cae383.js"
+        "json": "output/gc-list-4d5995a7-a81d-445e-bc7b-4a21cc142989.json",
+        "config": "input/config-4d5995a7-a81d-445e-bc7b-4a21cc142989.js"
     },
     "result": {
-        "error": false,
+        "error": true,
         "results": [
             {
                 "providerName": "google",
                 "kind": "livesPerType",
-                "error": false,
+                "error": true,
                 "results": [
-                    {
-                        "type": "Network",
-                        "resources": []
-                    },
                     {
                         "type": "Disk",
                         "resources": [
@@ -94,7 +90,7 @@
                         ]
                     },
                     {
-                        "type": "SubNetwork",
+                        "type": "Network",
                         "resources": []
                     },
                     {
@@ -297,11 +293,15 @@
                         ]
                     },
                     {
-                        "type": "IamBinding",
+                        "type": "SubNetwork",
                         "resources": []
                     },
                     {
                         "type": "IamPolicy",
+                        "resources": []
+                    },
+                    {
+                        "type": "IamBinding",
                         "resources": []
                     },
                     {
@@ -462,6 +462,23 @@
                                 "show": true
                             }
                         ]
+                    },
+                    {
+                        "type": "UrlMap",
+                        "resources": [],
+                        "error": {
+                            "isAxiosError": true,
+                            "message": "getaddrinfo EAI_AGAIN www.googleapis.com",
+                            "name": "Error",
+                            "config": {
+                                "url": "/",
+                                "method": "get",
+                                "baseURL": "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/global/urlMaps"
+                            },
+                            "code": "EAI_AGAIN",
+                            "stack": "Error: getaddrinfo EAI_AGAIN www.googleapis.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)",
+                            "response": {}
+                        }
                     }
                 ]
             }
