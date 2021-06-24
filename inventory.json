@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/06683e81-add2-411e-ab6e-da4b64519d28.dot",
+        "dotFile": "output/919be1ba-acb8-4223-b904-41b4a07796ac.dot",
         "title": "",
         "provider": [
             "google"
@@ -17,8 +17,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-06683e81-add2-411e-ab6e-da4b64519d28.json",
-        "config": "input/config-06683e81-add2-411e-ab6e-da4b64519d28.js"
+        "json": "output/gc-list-919be1ba-acb8-4223-b904-41b4a07796ac.json",
+        "config": "input/config-919be1ba-acb8-4223-b904-41b4a07796ac.js"
     },
     "result": {
         "error": false,
@@ -29,174 +29,16 @@
                 "error": false,
                 "results": [
                     {
-                        "type": "IamBinding",
+                        "type": "Network",
                         "resources": []
                     },
                     {
-                        "type": "Network",
-                        "resources": [
-                            {
-                                "uri": "google::Network::7258773012956681426",
-                                "name": "rhmig",
-                                "displayName": "rhmig",
-                                "id": "7258773012956681426",
-                                "providerName": "google",
-                                "type": "Network",
-                                "live": {
-                                    "id": "7258773012956681426",
-                                    "creationTimestamp": "2021-06-23T23:46:21.146-07:00",
-                                    "name": "rhmig",
-                                    "description": "Managed By GruCloud",
-                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-test/global/networks/rhmig",
-                                    "autoCreateSubnetworks": false,
-                                    "subnetworks": [
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-test/regions/europe-west4/subnetworks/subnet-10-0-0-0-16"
-                                    ],
-                                    "routingConfig": {
-                                        "routingMode": "REGIONAL"
-                                    },
-                                    "kind": "compute#network"
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": true,
-                                "show": true
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Disk",
-                        "resources": [
-                            {
-                                "uri": "google::Disk::2758807692422780115",
-                                "name": "extra-disk",
-                                "displayName": "extra-disk",
-                                "id": "2758807692422780115",
-                                "providerName": "google",
-                                "type": "Disk",
-                                "live": {
-                                    "id": "2758807692422780115",
-                                    "creationTimestamp": "2021-06-23T23:46:21.020-07:00",
-                                    "name": "extra-disk",
-                                    "sizeGb": "500",
-                                    "zone": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a",
-                                    "status": "READY",
-                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/disks/extra-disk",
-                                    "type": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/diskTypes/pd-standard",
-                                    "lastAttachTimestamp": "2021-06-23T23:47:20.021-07:00",
-                                    "users": [
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/instances/s1-2-uk1"
-                                    ],
-                                    "labels": {
-                                        "managed-by": "grucloud",
-                                        "stage": "dev"
-                                    },
-                                    "labelFingerprint": "2XCNew8FA10=",
-                                    "physicalBlockSizeBytes": "4096",
-                                    "kind": "compute#disk"
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": true,
-                                "show": true
-                            },
-                            {
-                                "uri": "google::Disk::3042111320179184772",
-                                "name": "s1-2-uk1",
-                                "displayName": "s1-2-uk1",
-                                "id": "3042111320179184772",
-                                "providerName": "google",
-                                "type": "Disk",
-                                "live": {
-                                    "id": "3042111320179184772",
-                                    "creationTimestamp": "2021-06-23T23:47:07.765-07:00",
-                                    "name": "s1-2-uk1",
-                                    "sizeGb": "20",
-                                    "zone": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a",
-                                    "status": "READY",
-                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/disks/s1-2-uk1",
-                                    "sourceImage": "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/images/centos-8-v20210609",
-                                    "sourceImageId": "2641454634546009436",
-                                    "type": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/diskTypes/pd-standard",
-                                    "licenses": [
-                                        "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/licenses/centos-8"
-                                    ],
-                                    "guestOsFeatures": [
-                                        {
-                                            "type": "UEFI_COMPATIBLE"
-                                        },
-                                        {
-                                            "type": "VIRTIO_SCSI_MULTIQUEUE"
-                                        },
-                                        {
-                                            "type": "SEV_CAPABLE"
-                                        }
-                                    ],
-                                    "lastAttachTimestamp": "2021-06-23T23:47:07.766-07:00",
-                                    "users": [
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/instances/s1-2-uk1"
-                                    ],
-                                    "labelFingerprint": "42WmSpB8rSM=",
-                                    "licenseCodes": [
-                                        "5731035067256925298"
-                                    ],
-                                    "physicalBlockSizeBytes": "4096",
-                                    "kind": "compute#disk"
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": false,
-                                "show": true
-                            }
-                        ]
-                    },
-                    {
                         "type": "SubNetwork",
-                        "resources": [
-                            {
-                                "uri": "google::SubNetwork::1527258530765706428",
-                                "name": "subnet-10-0-0-0-16",
-                                "displayName": "subnet-10-0-0-0-16",
-                                "id": "1527258530765706428",
-                                "providerName": "google",
-                                "type": "SubNetwork",
-                                "live": {
-                                    "id": "1527258530765706428",
-                                    "creationTimestamp": "2021-06-23T23:46:43.842-07:00",
-                                    "name": "subnet-10-0-0-0-16",
-                                    "description": "Managed By GruCloud",
-                                    "network": "https://www.googleapis.com/compute/v1/projects/grucloud-test/global/networks/rhmig",
-                                    "ipCidrRange": "10.0.0.0/16",
-                                    "gatewayAddress": "10.0.0.1",
-                                    "region": "https://www.googleapis.com/compute/v1/projects/grucloud-test/regions/europe-west4",
-                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-test/regions/europe-west4/subnetworks/subnet-10-0-0-0-16",
-                                    "privateIpGoogleAccess": false,
-                                    "fingerprint": "7ETM2MhEnxA=",
-                                    "privateIpv6GoogleAccess": "DISABLE_GOOGLE_ACCESS",
-                                    "purpose": "PRIVATE",
-                                    "kind": "compute#subnetwork"
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [
-                                    {
-                                        "type": "Network",
-                                        "ids": [
-                                            "7258773012956681426"
-                                        ]
-                                    }
-                                ],
-                                "managedByUs": true,
-                                "show": true
-                            }
-                        ]
+                        "resources": []
+                    },
+                    {
+                        "type": "IamBinding",
+                        "resources": []
                     },
                     {
                         "type": "IamPolicy",
@@ -205,160 +47,6 @@
                     {
                         "type": "ServiceAccount",
                         "resources": []
-                    },
-                    {
-                        "type": "VmInstance",
-                        "resources": [
-                            {
-                                "uri": "google::VmInstance::8284183874917471364",
-                                "name": "s1-2-uk1",
-                                "displayName": "s1-2-uk1",
-                                "id": "8284183874917471364",
-                                "providerName": "google",
-                                "type": "VmInstance",
-                                "live": {
-                                    "id": "8284183874917471364",
-                                    "creationTimestamp": "2021-06-23T23:47:07.728-07:00",
-                                    "name": "s1-2-uk1",
-                                    "tags": {
-                                        "fingerprint": "42WmSpB8rSM="
-                                    },
-                                    "machineType": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/machineTypes/e2-small",
-                                    "status": "RUNNING",
-                                    "zone": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a",
-                                    "canIpForward": false,
-                                    "networkInterfaces": [
-                                        {
-                                            "network": "https://www.googleapis.com/compute/v1/projects/grucloud-test/global/networks/rhmig",
-                                            "subnetwork": "https://www.googleapis.com/compute/v1/projects/grucloud-test/regions/europe-west4/subnetworks/subnet-10-0-0-0-16",
-                                            "networkIP": "10.0.0.2",
-                                            "name": "nic0",
-                                            "accessConfigs": [
-                                                {
-                                                    "type": "ONE_TO_ONE_NAT",
-                                                    "name": "External NAT",
-                                                    "natIP": "34.141.136.52",
-                                                    "networkTier": "PREMIUM",
-                                                    "kind": "compute#accessConfig"
-                                                }
-                                            ],
-                                            "fingerprint": "n_-lu3woUiw=",
-                                            "kind": "compute#networkInterface"
-                                        }
-                                    ],
-                                    "disks": [
-                                        {
-                                            "type": "PERSISTENT",
-                                            "mode": "READ_WRITE",
-                                            "source": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/disks/s1-2-uk1",
-                                            "deviceName": "s1-2-uk1-managed-by-gru",
-                                            "index": 0,
-                                            "boot": true,
-                                            "autoDelete": true,
-                                            "licenses": [
-                                                "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/licenses/centos-8"
-                                            ],
-                                            "interface": "SCSI",
-                                            "guestOsFeatures": [
-                                                {
-                                                    "type": "UEFI_COMPATIBLE"
-                                                },
-                                                {
-                                                    "type": "VIRTIO_SCSI_MULTIQUEUE"
-                                                },
-                                                {
-                                                    "type": "SEV_CAPABLE"
-                                                }
-                                            ],
-                                            "diskSizeGb": "20",
-                                            "kind": "compute#attachedDisk"
-                                        },
-                                        {
-                                            "type": "PERSISTENT",
-                                            "mode": "READ_WRITE",
-                                            "source": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/disks/extra-disk",
-                                            "deviceName": "persistent-disk-1",
-                                            "index": 1,
-                                            "boot": false,
-                                            "autoDelete": false,
-                                            "interface": "SCSI",
-                                            "diskSizeGb": "500",
-                                            "kind": "compute#attachedDisk"
-                                        }
-                                    ],
-                                    "metadata": {
-                                        "fingerprint": "CnQzM4fLdbw=",
-                                        "items": [
-                                            {
-                                                "key": "enable-oslogin",
-                                                "value": "True"
-                                            }
-                                        ],
-                                        "kind": "compute#metadata"
-                                    },
-                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/instances/s1-2-uk1",
-                                    "scheduling": {
-                                        "onHostMaintenance": "MIGRATE",
-                                        "automaticRestart": true,
-                                        "preemptible": false
-                                    },
-                                    "cpuPlatform": "Intel Skylake",
-                                    "labels": {
-                                        "managed-by": "grucloud",
-                                        "stage": "dev"
-                                    },
-                                    "labelFingerprint": "2XCNew8FA10=",
-                                    "startRestricted": false,
-                                    "deletionProtection": false,
-                                    "reservationAffinity": {
-                                        "consumeReservationType": "ANY_RESERVATION"
-                                    },
-                                    "displayDevice": {
-                                        "enableDisplay": false
-                                    },
-                                    "shieldedInstanceConfig": {
-                                        "enableSecureBoot": false,
-                                        "enableVtpm": true,
-                                        "enableIntegrityMonitoring": true
-                                    },
-                                    "shieldedInstanceIntegrityPolicy": {
-                                        "updateAutoLearnPolicy": true
-                                    },
-                                    "confidentialInstanceConfig": {
-                                        "enableConfidentialCompute": false
-                                    },
-                                    "fingerprint": "c-rBqh8JFa8=",
-                                    "lastStartTimestamp": "2021-06-23T23:47:16.591-07:00",
-                                    "kind": "compute#instance"
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [
-                                    {
-                                        "type": "Network",
-                                        "ids": [
-                                            "7258773012956681426"
-                                        ]
-                                    },
-                                    {
-                                        "type": "SubNetwork",
-                                        "ids": [
-                                            "1527258530765706428"
-                                        ]
-                                    },
-                                    {
-                                        "type": "Disk",
-                                        "ids": [
-                                            "3042111320179184772",
-                                            "2758807692422780115"
-                                        ]
-                                    }
-                                ],
-                                "managedByUs": true,
-                                "show": true
-                            }
-                        ]
                     }
                 ]
             }
