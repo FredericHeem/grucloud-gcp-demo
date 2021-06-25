@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/18e51f08-e9f1-42a7-87f1-815aac278bfa.dot",
+        "dotFile": "output/ee412418-e6d7-4439-bb41-3ec9f43db0c1.dot",
         "title": "",
         "provider": [
             "google"
@@ -17,8 +17,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-18e51f08-e9f1-42a7-87f1-815aac278bfa.json",
-        "config": "input/config-18e51f08-e9f1-42a7-87f1-815aac278bfa.js"
+        "json": "output/gc-list-ee412418-e6d7-4439-bb41-3ec9f43db0c1.json",
+        "config": "input/config-ee412418-e6d7-4439-bb41-3ec9f43db0c1.js"
     },
     "result": {
         "error": false,
@@ -91,6 +91,14 @@
                     },
                     {
                         "type": "Network",
+                        "resources": []
+                    },
+                    {
+                        "type": "IamBinding",
+                        "resources": []
+                    },
+                    {
+                        "type": "IamPolicy",
                         "resources": []
                     },
                     {
@@ -295,14 +303,6 @@
                                 "show": true
                             }
                         ]
-                    },
-                    {
-                        "type": "IamPolicy",
-                        "resources": []
-                    },
-                    {
-                        "type": "IamBinding",
-                        "resources": []
                     },
                     {
                         "type": "ServiceAccount",
