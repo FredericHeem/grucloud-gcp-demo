@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/93a7fdfb-2eff-4d1c-b04c-bfb2c01c502b.dot",
+        "dotFile": "output/073e2b6c-67c9-4bcf-a0df-4138df00e020.dot",
         "title": "",
         "provider": [
             "google"
@@ -17,8 +17,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-93a7fdfb-2eff-4d1c-b04c-bfb2c01c502b.json",
-        "config": "input/config-93a7fdfb-2eff-4d1c-b04c-bfb2c01c502b.js"
+        "json": "output/gc-list-073e2b6c-67c9-4bcf-a0df-4138df00e020.json",
+        "config": "input/config-073e2b6c-67c9-4bcf-a0df-4138df00e020.js"
     },
     "result": {
         "error": false,
@@ -28,10 +28,6 @@
                 "kind": "livesPerType",
                 "error": false,
                 "results": [
-                    {
-                        "type": "Network",
-                        "resources": []
-                    },
                     {
                         "type": "Disk",
                         "resources": [
@@ -92,6 +88,22 @@
                                 "show": true
                             }
                         ]
+                    },
+                    {
+                        "type": "Network",
+                        "resources": []
+                    },
+                    {
+                        "type": "IamPolicy",
+                        "resources": []
+                    },
+                    {
+                        "type": "SubNetwork",
+                        "resources": []
+                    },
+                    {
+                        "type": "IamBinding",
+                        "resources": []
                     },
                     {
                         "type": "Firewall",
@@ -291,18 +303,6 @@
                                 "show": true
                             }
                         ]
-                    },
-                    {
-                        "type": "SubNetwork",
-                        "resources": []
-                    },
-                    {
-                        "type": "IamPolicy",
-                        "resources": []
-                    },
-                    {
-                        "type": "IamBinding",
-                        "resources": []
                     },
                     {
                         "type": "ServiceAccount",
