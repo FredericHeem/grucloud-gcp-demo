@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/0c1b5ebb-e2c6-4b8d-a604-854658f2bfc7.dot",
+        "dotFile": "output/0fd98d81-7bbc-4553-a2fd-2d3c30f28fc2.dot",
         "title": "",
         "provider": [
             "google"
@@ -17,8 +17,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-0c1b5ebb-e2c6-4b8d-a604-854658f2bfc7.json",
-        "config": "input/config-0c1b5ebb-e2c6-4b8d-a604-854658f2bfc7.js"
+        "json": "output/gc-list-0fd98d81-7bbc-4553-a2fd-2d3c30f28fc2.json",
+        "config": "input/config-0fd98d81-7bbc-4553-a2fd-2d3c30f28fc2.js"
     },
     "result": {
         "error": false,
@@ -28,10 +28,6 @@
                 "kind": "livesPerType",
                 "error": false,
                 "results": [
-                    {
-                        "type": "Network",
-                        "resources": []
-                    },
                     {
                         "type": "Disk",
                         "resources": [
@@ -92,6 +88,14 @@
                                 "show": true
                             }
                         ]
+                    },
+                    {
+                        "type": "Network",
+                        "resources": []
+                    },
+                    {
+                        "type": "IamBinding",
+                        "resources": []
                     },
                     {
                         "type": "Firewall",
@@ -298,10 +302,6 @@
                     },
                     {
                         "type": "IamPolicy",
-                        "resources": []
-                    },
-                    {
-                        "type": "IamBinding",
                         "resources": []
                     },
                     {
