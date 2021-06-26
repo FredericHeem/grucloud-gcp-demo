@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/2f2effda-dc86-4bb0-ac0c-b9885e91cf62.dot",
+        "dotFile": "output/d2efec8f-af67-4e58-835c-23b78f727a75.dot",
         "title": "",
         "provider": [
             "google"
@@ -17,8 +17,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-2f2effda-dc86-4bb0-ac0c-b9885e91cf62.json",
-        "config": "input/config-2f2effda-dc86-4bb0-ac0c-b9885e91cf62.js"
+        "json": "output/gc-list-d2efec8f-af67-4e58-835c-23b78f727a75.json",
+        "config": "input/config-d2efec8f-af67-4e58-835c-23b78f727a75.js"
     },
     "result": {
         "error": false,
@@ -92,6 +92,10 @@
                                 "show": true
                             }
                         ]
+                    },
+                    {
+                        "type": "SubNetwork",
+                        "resources": []
                     },
                     {
                         "type": "Firewall",
@@ -291,10 +295,6 @@
                                 "show": true
                             }
                         ]
-                    },
-                    {
-                        "type": "SubNetwork",
-                        "resources": []
                     },
                     {
                         "type": "IamPolicy",
