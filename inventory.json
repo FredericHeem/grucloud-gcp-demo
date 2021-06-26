@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/8cd8898a-db3f-4893-8a4d-00e275e1bc97.dot",
+        "dotFile": "output/93a7fdfb-2eff-4d1c-b04c-bfb2c01c502b.dot",
         "title": "",
         "provider": [
             "google"
@@ -17,8 +17,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-8cd8898a-db3f-4893-8a4d-00e275e1bc97.json",
-        "config": "input/config-8cd8898a-db3f-4893-8a4d-00e275e1bc97.js"
+        "json": "output/gc-list-93a7fdfb-2eff-4d1c-b04c-bfb2c01c502b.json",
+        "config": "input/config-93a7fdfb-2eff-4d1c-b04c-bfb2c01c502b.js"
     },
     "result": {
         "error": false,
@@ -28,6 +28,10 @@
                 "kind": "livesPerType",
                 "error": false,
                 "results": [
+                    {
+                        "type": "Network",
+                        "resources": []
+                    },
                     {
                         "type": "Disk",
                         "resources": [
@@ -88,10 +92,6 @@
                                 "show": true
                             }
                         ]
-                    },
-                    {
-                        "type": "Network",
-                        "resources": []
                     },
                     {
                         "type": "Firewall",
