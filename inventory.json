@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/5f137308-50ac-4789-bdfc-3ccae658da11.dot",
+        "dotFile": "output/8cd8898a-db3f-4893-8a4d-00e275e1bc97.dot",
         "title": "",
         "provider": [
             "google"
@@ -17,8 +17,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-5f137308-50ac-4789-bdfc-3ccae658da11.json",
-        "config": "input/config-5f137308-50ac-4789-bdfc-3ccae658da11.js"
+        "json": "output/gc-list-8cd8898a-db3f-4893-8a4d-00e275e1bc97.json",
+        "config": "input/config-8cd8898a-db3f-4893-8a4d-00e275e1bc97.js"
     },
     "result": {
         "error": false,
@@ -28,10 +28,6 @@
                 "kind": "livesPerType",
                 "error": false,
                 "results": [
-                    {
-                        "type": "Network",
-                        "resources": []
-                    },
                     {
                         "type": "Disk",
                         "resources": [
@@ -94,7 +90,7 @@
                         ]
                     },
                     {
-                        "type": "SubNetwork",
+                        "type": "Network",
                         "resources": []
                     },
                     {
@@ -297,11 +293,15 @@
                         ]
                     },
                     {
-                        "type": "IamBinding",
+                        "type": "SubNetwork",
                         "resources": []
                     },
                     {
                         "type": "IamPolicy",
+                        "resources": []
+                    },
+                    {
+                        "type": "IamBinding",
                         "resources": []
                     },
                     {
