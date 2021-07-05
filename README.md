@@ -1,11 +1,3 @@
-# Gcp VM Network
+# GCP deploymemt
 
-The purpose of this example is to deploy a virtual machine within a VPC
-
-## Dependency Graph
-
-```sh
-gc graph
-```
-
-![GraphTarget](diagram-target.svg)
+Boilerplate to deploy infrastructure on GCP with GruCloud.
