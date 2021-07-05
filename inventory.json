@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/42a0e9c7-db7b-45d0-b210-e1ee4bc2b727.dot",
+        "dotFile": "output/4c2c156d-b085-4928-a7db-b532b5e7ce7e.dot",
         "title": "",
         "provider": [
             "google"
@@ -16,8 +16,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-42a0e9c7-db7b-45d0-b210-e1ee4bc2b727.json",
-        "config": "input/config-42a0e9c7-db7b-45d0-b210-e1ee4bc2b727.js"
+        "json": "output/gc-list-4c2c156d-b085-4928-a7db-b532b5e7ce7e.json",
+        "config": "input/config-4c2c156d-b085-4928-a7db-b532b5e7ce7e.js"
     },
     "result": {
         "error": false,
@@ -389,11 +389,11 @@
                         ]
                     },
                     {
-                        "type": "IamPolicy",
+                        "type": "IamBinding",
                         "resources": []
                     },
                     {
-                        "type": "IamBinding",
+                        "type": "IamPolicy",
                         "resources": []
                     },
                     {
