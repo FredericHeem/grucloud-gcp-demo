@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/bd31cd8b-f509-4537-bb5a-16057ada32cc.dot",
+        "dotFile": "output/363ff4b1-9eb7-40c8-8d0b-d524bf0d2632.dot",
         "title": "",
         "provider": [
             "google"
@@ -16,8 +16,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-bd31cd8b-f509-4537-bb5a-16057ada32cc.json",
-        "config": "input/config-bd31cd8b-f509-4537-bb5a-16057ada32cc.js"
+        "json": "output/gc-list-363ff4b1-9eb7-40c8-8d0b-d524bf0d2632.json",
+        "config": "input/config-363ff4b1-9eb7-40c8-8d0b-d524bf0d2632.js"
     },
     "result": {
         "error": false,
@@ -86,6 +86,95 @@
                                 "namespace": "",
                                 "dependencies": [],
                                 "managedByUs": false,
+                                "show": true
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Policy",
+                        "group": "iam",
+                        "resources": [
+                            {
+                                "uri": "google::iam::Policy::policy",
+                                "name": "policy",
+                                "displayName": "policy",
+                                "id": "policy",
+                                "providerName": "google",
+                                "type": "Policy",
+                                "group": "iam",
+                                "live": {
+                                    "version": 1,
+                                    "etag": "BwXDBa9/tJ0=",
+                                    "bindings": [
+                                        {
+                                            "role": "roles/compute.admin",
+                                            "members": [
+                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
+                                            ]
+                                        },
+                                        {
+                                            "role": "roles/compute.serviceAgent",
+                                            "members": [
+                                                "serviceAccount:service-90918681706@compute-system.iam.gserviceaccount.com"
+                                            ]
+                                        },
+                                        {
+                                            "role": "roles/dns.admin",
+                                            "members": [
+                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
+                                            ]
+                                        },
+                                        {
+                                            "role": "roles/editor",
+                                            "members": [
+                                                "serviceAccount:90918681706-compute@developer.gserviceaccount.com",
+                                                "serviceAccount:90918681706@cloudservices.gserviceaccount.com",
+                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
+                                            ]
+                                        },
+                                        {
+                                            "role": "roles/iam.serviceAccountAdmin",
+                                            "members": [
+                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
+                                            ]
+                                        },
+                                        {
+                                            "role": "roles/owner",
+                                            "members": [
+                                                "user:fred@grucloud.com"
+                                            ]
+                                        },
+                                        {
+                                            "role": "roles/resourcemanager.projectIamAdmin",
+                                            "members": [
+                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
+                                            ]
+                                        },
+                                        {
+                                            "role": "roles/storage.admin",
+                                            "members": [
+                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
+                                            ]
+                                        },
+                                        {
+                                            "role": "roles/storage.objectAdmin",
+                                            "members": [
+                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
+                                            ]
+                                        },
+                                        {
+                                            "role": "roles/viewer",
+                                            "members": [
+                                                "serviceAccount:readonly-sa-grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "cannotBeDeleted": true,
+                                "isDefault": false,
+                                "namespace": "",
+                                "dependencies": [],
+                                "managedByUs": true,
                                 "show": true
                             }
                         ]
@@ -299,90 +388,44 @@
                         ]
                     },
                     {
-                        "type": "Policy",
-                        "group": "iam",
+                        "type": "SubNetwork",
+                        "group": "compute",
                         "resources": [
                             {
-                                "uri": "google::iam::Policy::policy",
-                                "name": "policy",
-                                "displayName": "policy",
-                                "id": "policy",
+                                "uri": "google::compute::SubNetwork::2053712691071499553",
+                                "name": "default",
+                                "displayName": "default",
+                                "id": "2053712691071499553",
                                 "providerName": "google",
-                                "type": "Policy",
-                                "group": "iam",
+                                "type": "SubNetwork",
+                                "group": "compute",
                                 "live": {
-                                    "version": 1,
-                                    "etag": "BwXDBa9/tJ0=",
-                                    "bindings": [
-                                        {
-                                            "role": "roles/compute.admin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/compute.serviceAgent",
-                                            "members": [
-                                                "serviceAccount:service-90918681706@compute-system.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/dns.admin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/editor",
-                                            "members": [
-                                                "serviceAccount:90918681706-compute@developer.gserviceaccount.com",
-                                                "serviceAccount:90918681706@cloudservices.gserviceaccount.com",
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/iam.serviceAccountAdmin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/owner",
-                                            "members": [
-                                                "user:fred@grucloud.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/resourcemanager.projectIamAdmin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/storage.admin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/storage.objectAdmin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/viewer",
-                                            "members": [
-                                                "serviceAccount:readonly-sa-grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        }
-                                    ]
+                                    "id": "2053712691071499553",
+                                    "creationTimestamp": "2021-05-23T09:33:18.467-07:00",
+                                    "name": "default",
+                                    "network": "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/global/networks/default",
+                                    "ipCidrRange": "10.164.0.0/20",
+                                    "gatewayAddress": "10.164.0.1",
+                                    "region": "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-west4",
+                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-west4/subnetworks/default",
+                                    "privateIpGoogleAccess": false,
+                                    "fingerprint": "p6RvWzVYhZs=",
+                                    "purpose": "PRIVATE",
+                                    "stackType": "UNSPECIFIED_STACK_TYPE",
+                                    "kind": "compute#subnetwork"
                                 },
                                 "cannotBeDeleted": true,
-                                "isDefault": false,
+                                "isDefault": true,
                                 "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": true,
+                                "dependencies": [
+                                    {
+                                        "type": "Network",
+                                        "ids": [
+                                            "1538262271330303271"
+                                        ]
+                                    }
+                                ],
+                                "managedByUs": false,
                                 "show": true
                             }
                         ]
@@ -577,49 +620,6 @@
                                 },
                                 "cannotBeDeleted": false,
                                 "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [
-                                    {
-                                        "type": "Network",
-                                        "ids": [
-                                            "1538262271330303271"
-                                        ]
-                                    }
-                                ],
-                                "managedByUs": false,
-                                "show": true
-                            }
-                        ]
-                    },
-                    {
-                        "type": "SubNetwork",
-                        "group": "compute",
-                        "resources": [
-                            {
-                                "uri": "google::compute::SubNetwork::2053712691071499553",
-                                "name": "default",
-                                "displayName": "default",
-                                "id": "2053712691071499553",
-                                "providerName": "google",
-                                "type": "SubNetwork",
-                                "group": "compute",
-                                "live": {
-                                    "id": "2053712691071499553",
-                                    "creationTimestamp": "2021-05-23T09:33:18.467-07:00",
-                                    "name": "default",
-                                    "network": "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/global/networks/default",
-                                    "ipCidrRange": "10.164.0.0/20",
-                                    "gatewayAddress": "10.164.0.1",
-                                    "region": "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-west4",
-                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-west4/subnetworks/default",
-                                    "privateIpGoogleAccess": false,
-                                    "fingerprint": "p6RvWzVYhZs=",
-                                    "purpose": "PRIVATE",
-                                    "stackType": "UNSPECIFIED_STACK_TYPE",
-                                    "kind": "compute#subnetwork"
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": true,
                                 "namespace": "",
                                 "dependencies": [
                                     {
