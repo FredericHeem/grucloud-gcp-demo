@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/9f8642b7-9a34-4f0f-bff1-071c9f453782.dot",
+        "dotFile": "output/56c02719-45ad-4cd2-bc9b-fe0df110c45a.dot",
         "title": "",
         "provider": [
             "google"
@@ -16,530 +16,219 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-9f8642b7-9a34-4f0f-bff1-071c9f453782.json",
-        "config": "input/config-9f8642b7-9a34-4f0f-bff1-071c9f453782.js"
+        "json": "output/gc-list-56c02719-45ad-4cd2-bc9b-fe0df110c45a.json",
+        "config": "input/config-56c02719-45ad-4cd2-bc9b-fe0df110c45a.js"
     },
     "result": {
-        "error": false,
+        "error": true,
         "results": [
             {
                 "providerName": "google",
                 "kind": "livesPerType",
-                "error": false,
+                "error": true,
                 "results": [
-                    {
-                        "type": "Network",
-                        "group": "compute",
-                        "resources": [
-                            {
-                                "uri": "google::compute::Network::1538262271330303271",
-                                "name": "default",
-                                "displayName": "default",
-                                "id": "1538262271330303271",
-                                "providerName": "google",
-                                "type": "Network",
-                                "group": "compute",
-                                "live": {
-                                    "id": "1538262271330303271",
-                                    "creationTimestamp": "2021-05-23T09:33:12.064-07:00",
-                                    "name": "default",
-                                    "description": "Default network for the project",
-                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/global/networks/default",
-                                    "autoCreateSubnetworks": true,
-                                    "subnetworks": [
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/australia-southeast2/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/asia-northeast3/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-west2/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/asia-southeast2/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-west1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-central2/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/us-east4/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/northamerica-northeast1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-west6/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/us-west3/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/southamerica-east1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/us-west1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/asia-northeast1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/asia-south1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/australia-southeast1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/asia-southeast1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/asia-northeast2/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/asia-south2/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/northamerica-northeast2/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-west4/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/asia-east2/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/us-east7/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/us-central1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/us-east1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/us-west2/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/us-west4/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/southamerica-west1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-north1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/asia-east1/subnetworks/default",
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-west3/subnetworks/default"
-                                    ],
-                                    "routingConfig": {
-                                        "routingMode": "REGIONAL"
-                                    },
-                                    "kind": "compute#network"
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": true,
-                                "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": false,
-                                "show": true
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Binding",
-                        "group": "iam",
-                        "resources": [
-                            {
-                                "uri": "google::iam::Binding::roles/compute.admin",
-                                "name": "roles/compute.admin",
-                                "displayName": "roles/compute.admin",
-                                "id": "roles/compute.admin",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/compute.admin",
-                                    "members": [
-                                        "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/compute.serviceAgent",
-                                "name": "roles/compute.serviceAgent",
-                                "displayName": "roles/compute.serviceAgent",
-                                "id": "roles/compute.serviceAgent",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/compute.serviceAgent",
-                                    "members": [
-                                        "serviceAccount:service-90918681706@compute-system.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/containerregistry.ServiceAgent",
-                                "name": "roles/containerregistry.ServiceAgent",
-                                "displayName": "roles/containerregistry.ServiceAgent",
-                                "id": "roles/containerregistry.ServiceAgent",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/containerregistry.ServiceAgent",
-                                    "members": [
-                                        "serviceAccount:service-90918681706@containerregistry.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/dns.admin",
-                                "name": "roles/dns.admin",
-                                "displayName": "roles/dns.admin",
-                                "id": "roles/dns.admin",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/dns.admin",
-                                    "members": [
-                                        "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/editor",
-                                "name": "roles/editor",
-                                "displayName": "roles/editor",
-                                "id": "roles/editor",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/editor",
-                                    "members": [
-                                        "serviceAccount:90918681706-compute@developer.gserviceaccount.com",
-                                        "serviceAccount:90918681706@cloudservices.gserviceaccount.com",
-                                        "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/iam.serviceAccountAdmin",
-                                "name": "roles/iam.serviceAccountAdmin",
-                                "displayName": "roles/iam.serviceAccountAdmin",
-                                "id": "roles/iam.serviceAccountAdmin",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/iam.serviceAccountAdmin",
-                                    "members": [
-                                        "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/owner",
-                                "name": "roles/owner",
-                                "displayName": "roles/owner",
-                                "id": "roles/owner",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/owner",
-                                    "members": [
-                                        "user:fred@grucloud.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/pubsub.serviceAgent",
-                                "name": "roles/pubsub.serviceAgent",
-                                "displayName": "roles/pubsub.serviceAgent",
-                                "id": "roles/pubsub.serviceAgent",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/pubsub.serviceAgent",
-                                    "members": [
-                                        "serviceAccount:service-90918681706@gcp-sa-pubsub.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/resourcemanager.projectIamAdmin",
-                                "name": "roles/resourcemanager.projectIamAdmin",
-                                "displayName": "roles/resourcemanager.projectIamAdmin",
-                                "id": "roles/resourcemanager.projectIamAdmin",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/resourcemanager.projectIamAdmin",
-                                    "members": [
-                                        "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/run.admin",
-                                "name": "roles/run.admin",
-                                "displayName": "roles/run.admin",
-                                "id": "roles/run.admin",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/run.admin",
-                                    "members": [
-                                        "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/run.serviceAgent",
-                                "name": "roles/run.serviceAgent",
-                                "displayName": "roles/run.serviceAgent",
-                                "id": "roles/run.serviceAgent",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/run.serviceAgent",
-                                    "members": [
-                                        "serviceAccount:service-90918681706@serverless-robot-prod.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/storage.admin",
-                                "name": "roles/storage.admin",
-                                "displayName": "roles/storage.admin",
-                                "id": "roles/storage.admin",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/storage.admin",
-                                    "members": [
-                                        "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/storage.objectAdmin",
-                                "name": "roles/storage.objectAdmin",
-                                "displayName": "roles/storage.objectAdmin",
-                                "id": "roles/storage.objectAdmin",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/storage.objectAdmin",
-                                    "members": [
-                                        "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            },
-                            {
-                                "uri": "google::iam::Binding::roles/viewer",
-                                "name": "roles/viewer",
-                                "displayName": "roles/viewer",
-                                "id": "roles/viewer",
-                                "providerName": "google",
-                                "type": "Binding",
-                                "group": "iam",
-                                "live": {
-                                    "role": "roles/viewer",
-                                    "members": [
-                                        "serviceAccount:readonly-sa-grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "show": true
-                            }
-                        ]
-                    },
                     {
                         "type": "Policy",
                         "group": "iam",
-                        "resources": [
-                            {
-                                "uri": "google::iam::Policy::policy",
-                                "name": "policy",
-                                "displayName": "policy",
-                                "id": "policy",
-                                "providerName": "google",
-                                "type": "Policy",
-                                "group": "iam",
-                                "live": {
-                                    "version": 1,
-                                    "etag": "BwXQjnPOSVg=",
-                                    "bindings": [
-                                        {
-                                            "role": "roles/compute.admin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/compute.serviceAgent",
-                                            "members": [
-                                                "serviceAccount:service-90918681706@compute-system.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/containerregistry.ServiceAgent",
-                                            "members": [
-                                                "serviceAccount:service-90918681706@containerregistry.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/dns.admin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/editor",
-                                            "members": [
-                                                "serviceAccount:90918681706-compute@developer.gserviceaccount.com",
-                                                "serviceAccount:90918681706@cloudservices.gserviceaccount.com",
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/iam.serviceAccountAdmin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/owner",
-                                            "members": [
-                                                "user:fred@grucloud.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/pubsub.serviceAgent",
-                                            "members": [
-                                                "serviceAccount:service-90918681706@gcp-sa-pubsub.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/resourcemanager.projectIamAdmin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/run.admin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/run.serviceAgent",
-                                            "members": [
-                                                "serviceAccount:service-90918681706@serverless-robot-prod.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/storage.admin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/storage.objectAdmin",
-                                            "members": [
-                                                "serviceAccount:grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        },
-                                        {
-                                            "role": "roles/viewer",
-                                            "members": [
-                                                "serviceAccount:readonly-sa-grucloud@grucloud-vm-tuto-1.iam.gserviceaccount.com"
-                                            ]
-                                        }
-                                    ]
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": true,
-                                "show": true
-                            }
-                        ]
-                    },
-                    {
-                        "type": "SubNetwork",
-                        "group": "compute",
-                        "resources": [
-                            {
-                                "uri": "google::compute::SubNetwork::2053712691071499553",
-                                "name": "default",
-                                "displayName": "default",
-                                "id": "2053712691071499553",
-                                "providerName": "google",
-                                "type": "SubNetwork",
-                                "group": "compute",
-                                "live": {
-                                    "id": "2053712691071499553",
-                                    "creationTimestamp": "2021-05-23T09:33:18.467-07:00",
-                                    "name": "default",
-                                    "network": "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/global/networks/default",
-                                    "ipCidrRange": "10.164.0.0/20",
-                                    "gatewayAddress": "10.164.0.1",
-                                    "region": "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-west4",
-                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-vm-tuto-1/regions/europe-west4/subnetworks/default",
-                                    "privateIpGoogleAccess": false,
-                                    "fingerprint": "p6RvWzVYhZs=",
-                                    "purpose": "PRIVATE",
-                                    "stackType": "UNSPECIFIED_STACK_TYPE",
-                                    "kind": "compute#subnetwork"
-                                },
-                                "cannotBeDeleted": true,
-                                "isDefault": true,
-                                "namespace": "",
-                                "dependencies": [
-                                    {
-                                        "type": "Network",
-                                        "ids": [
-                                            "1538262271330303271"
-                                        ]
-                                    }
-                                ],
-                                "managedByUs": false,
-                                "show": true
-                            }
-                        ]
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
                     },
                     {
                         "type": "ServiceAccount",
                         "group": "iam",
-                        "resources": []
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "Binding",
+                        "group": "iam",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "SslCertificate",
+                        "group": "compute",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "BackendBucket",
+                        "group": "compute",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "Network",
+                        "group": "compute",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "Address",
+                        "group": "compute",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "Disk",
+                        "group": "compute",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "ManagedZone",
+                        "group": "dns",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "Bucket",
+                        "group": "storage",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "Object",
+                        "group": "storage",
+                        "resources": [],
+                        "error": {
+                            "generatedMessage": false,
+                            "code": "ERR_ASSERTION",
+                            "expected": true,
+                            "operator": "=="
+                        }
+                    },
+                    {
+                        "type": "UrlMap",
+                        "group": "compute",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "SubNetwork",
+                        "group": "compute",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "Firewall",
+                        "group": "compute",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "HttpsTargetProxy",
+                        "group": "compute",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "VmInstance",
+                        "group": "compute",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
+                    },
+                    {
+                        "type": "GlobalForwardingRule",
+                        "group": "compute",
+                        "resources": [],
+                        "error": {
+                            "message": "accessToken not set",
+                            "name": "AssertionError",
+                            "code": "ERR_ASSERTION",
+                            "stack": "AssertionError [ERR_ASSERTION]: accessToken not set\n    at onHeaders (/app/node_modules/@grucloud/provider-google/GoogleCommon.js:46:7)\n    at /app/node_modules/@grucloud/core/AxiosMaker.js:27:24\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+                            "response": {}
+                        }
                     }
                 ]
             }
