@@ -7,5 +7,4 @@ exports.createStack = ({ createProvider }) => ({
     createResources,
     config: require("./config"),
   }),
-  hooks: [require("./hook")],
 });
